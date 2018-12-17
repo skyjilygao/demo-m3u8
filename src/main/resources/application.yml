@@ -1,0 +1,7 @@
+video:
+#mp4视频文件
+  source: E:\test\video2.mp4
+#  转换输出路径：必须是xxx\xx.m3u8，否则可能会报错
+  target: E:\test\video2.m3u8
+# ffmpeg命令：不配置或ffmpeg，必须保证ffmpeg已经加了环境变量，否则需要指定ffmpeg路径：/usr/local/bin/ffmpeg或D:\\!Soft\\ffmpeg-20181127-1035206-win64-static\\bin\\ffmpeg.exe
+ffmpeg: ffmpeg
