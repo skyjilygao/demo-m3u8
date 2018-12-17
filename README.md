@@ -1,6 +1,10 @@
 # demo-m3u8
 mp4转m3u8 demo
 本项目主要是mp4转m3u8相关调用
+
+为了在网站上传后能够实时查询视频转换状态，以此写本demo。
+上传后，可以循环调用查询状态接口，当状态是成功，表示转换成功，提示用户消息。
+
 如何使用：
 1.  修改配置文件application.yml：
     - 修改mp4文件和输出保存m3u8的位置：
@@ -29,4 +33,4 @@ mp4转m3u8 demo
 2.  修改index.html，修改source标签src属性
     ```<source src="http://localhost:8080/t/video2.m3u8" type="application/x-mpegURL">```
 3.  播放：http://localhost:8080
- 
+
