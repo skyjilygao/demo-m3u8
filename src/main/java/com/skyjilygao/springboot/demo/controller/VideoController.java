@@ -28,7 +28,7 @@ public class VideoController {
 
     @RequestMapping("")
     public String main(){
-        return "hello video";
+        return "hello, I'm skyjilygao";
     }
     @RequestMapping("start")
     public String start() throws FileNotFoundException, InterruptedException {
